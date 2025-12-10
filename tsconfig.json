@@ -1,19 +1,16 @@
 {
   "compilerOptions": {
-    /* Módulos e Resolução */
-    "target": "ES2020" /* Versão do ECMAScript para o output JS. */,
-    "module": "CommonJS" /* Sistema de módulos para o output JS. */,
-    "moduleResolution": "node" /* ESSENCIAL: Estratégia de resolução de módulos. */,
-    "esModuleInterop": true /* Permite importações padrão (default) de módulos CommonJS. */,
-    "forceConsistentCasingInFileNames": true /* Garante que maiúsculas/minúsculas sejam respeitadas. */,
+    "target": "ES2020",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
 
-    /* Configurações de Output */
-    "outDir": "./dist" /* Onde os arquivos JS compilados serão colocados. */,
-    "rootDir": "./src" /* Onde estão seus arquivos de código fonte. */,
+    "outDir": "./build",
+    "rootDir": "./src",
 
-    /* Configurações de Tipagem e Rigor */
-    "strict": true /* Ativa todas as verificações rigorosas de tipagem. */,
-    "skipLibCheck": true /* Ignora checagens de tipos em arquivos de bibliotecas. */
+    "strict": true,
+    "skipLibCheck": true
   },
   "include": ["src/**/*"]
 }
