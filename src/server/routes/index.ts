@@ -12,7 +12,7 @@ router.get("/", (_, res) => {
 router.get(
   "/cidades",
   CidadesController.getAllValidation,
-  CidadesController.GetAll
+  CidadesController.getAll
 );
 
 router.get(
